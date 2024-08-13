@@ -1,0 +1,71 @@
+
+[
+  {
+    "category": "Overview",
+    "components": [
+      {
+        "name": "Total Sales",
+        "text": "Rs.100,000"
+      },
+      {
+        "name": "Total Customers",
+        "text": "1,000"
+      },
+      {
+        "name": "Total Orders",
+        "text": "5,000"
+      }
+    ]
+  },
+  {
+    "category": "Sales",
+    "components": [
+      {
+        "name": "Daily Sales",
+        "text": "Rs.5,000"
+      },
+      {
+        "name": "Monthly Sales",
+        "text": "Rs.150,000"
+      },
+      {
+        "name": "Yearly Sales",
+        "text": "Rs.1,800,000"
+      }
+    ]
+  },
+  {
+    "category": "Customers",
+    "components": [
+      {
+        "name": "New Customers",
+        "text": "100"
+      },
+      {
+        "name": "Returning Customers",
+        "text": "500"
+      },
+      {
+        "name": "Customer Retention Rate",
+        "text": "80%"
+      }
+    ]
+  },
+  {
+    "category": "Orders",
+    "components": [
+      {
+        "name": "Total Orders",
+        "text": "5,000"
+      },
+      {
+        "name": "Average Order Value",
+        "text": "$100"
+      },
+      {
+        "name": "Order Fulfillment Rate",
+        "text": "95%"
+      }
+    ]
+  }
+]
