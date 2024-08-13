@@ -67,7 +67,7 @@ function App() {
            search&&(
             jsonData.map((items,index)=>{
               return(
-                items.components.filter((ite,i)=>ite.name.toLowerCase().includes(search)).map((it,j)=>{
+                items.components.filter((ite)=>ite.name.toLowerCase().includes(search)).map((it,j)=>{
                     return(
                       arr[index][j]=="true"&&(
                         <div>{it.name}</div>
