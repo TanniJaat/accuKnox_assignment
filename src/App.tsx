@@ -190,7 +190,9 @@ function App() {
  
              <p className="text-md pt-2">{cat.text}</p>
  
-             <Button  variant={"ghost"} className="w-[20px] p-0 h-[20px] bg-red-600 flex items-center rounded-full rotate-45 top-1 right-1 justify-center absolute z-[1] "> <Cross className="w-[15px] h-[15px]"/></Button>
+             <Button onClick={()=>{
+              currentWidgets(index,i,"false")
+             }} variant={"ghost"} className="w-[20px] p-0 h-[20px] bg-red-600 flex items-center rounded-full rotate-45 top-1 right-1 justify-center absolute z-[1] "> <Cross className="w-[15px] h-[15px]"/></Button>
            </div>
             )
          )})}
@@ -208,7 +210,7 @@ function App() {
          </div>
        </div>
  
-         {/* Add Menu */}
+        
  
        
      </div>
